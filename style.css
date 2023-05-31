@@ -1,0 +1,39 @@
+body,html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-left: 1000px;
+}
+
+li {
+    padding: 35px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+
+.header-logo {
+    display: flex;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-right: 1000px;
+    color: #F9FAF8;
+}
+
+.top-section {
+    height: 30%;
+    background-color: #1F2937;
+    /* Add any other styles you need for the section */
+}
