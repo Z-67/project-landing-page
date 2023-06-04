@@ -49,6 +49,22 @@ button {
     border-radius: 10px;
 }
 
+
+.grey-rectangle {
+    position: relative;
+    left: 1000px;
+    bottom: 150px;
+    width: 500px; /* Adjust the width as needed */
+    height: 50%; /* Expand to full height of top-section */
+    background-color: rgb(147, 144, 144); /* Use your desired shade of grey */
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
 .header-logo {
     display: flex;
     font-size: 24px;
@@ -61,7 +77,7 @@ button {
 .top-section {
     height: 30%;
     background-color: #1F2937;
-    
+    position: relative;
     /* Add any other styles you need for the section */
 }
 
