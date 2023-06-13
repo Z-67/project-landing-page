@@ -140,10 +140,13 @@ h2 {
     font-style: italic;
     font-weight: lighter;
     width: 800px;
-    text-align: center;
     
 }
 
 .author {
     margin-top: 150px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: -250px;
+    margin-top: 200px;
 }
