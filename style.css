@@ -176,4 +176,12 @@ h2 {
 .button2 {
     border: 2px solid white;
 }
-  
+
+.footer {
+    color: #dedede;
+    background-color: #1F2937;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
