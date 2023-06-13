@@ -5,7 +5,7 @@ body,html {
 }
 
 .top-section {
-    height: 30%;
+    height: 25%;
     background-color: #1F2937;
     position: relative;
     /* Add any other styles you need for the section */
@@ -125,3 +125,25 @@ h2 {
     width: 100px;
     text-align: center;
   }
+
+.third-section {
+    height: 30%;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    width: 800px;
+    text-align: center;
+    
+}
+
+.author {
+    margin-top: 150px;
+}
