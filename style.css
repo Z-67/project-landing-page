@@ -127,7 +127,7 @@ h2 {
   }
 
 .third-section {
-    height: 30%;
+    height: 25%;
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
@@ -150,3 +150,30 @@ h2 {
     margin-left: -250px;
     margin-top: 200px;
 }
+
+.fourth-section {
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-rectangle {
+    width: 1000px; /* Adjust the width as needed */
+    height: 50%; /* Expand to full height of top-section */
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.bold {
+    font-weight: bold;
+  }
+
+.button2 {
+    border: 2px solid white;
+}
+  
