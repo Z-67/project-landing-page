@@ -8,20 +8,34 @@ body,html {
     height: 25%;
     background-color: #1F2937;
     position: relative;
-    /* Add any other styles you need for the section */
+    
+}
+
+
+ul li a {
+    text-decoration: none; /* Remove the default underline */
+    color: white;
+    font-weight: bold;
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: text-decoration 0.3s ease; /* Add a smooth transition for text-decoration */
+}
+
+/* Underline the link when hovering */
+ul li a:hover {
+    text-decoration: underline;
 }
 
 ul {
     display: flex;
     list-style-type: none;
-    font-size: 18px;
+    font-size: 1vw;
     color: #E5E7EB;
-    margin-left: 100px;
+    margin-left: 2vw;
 }
 
 li {
-    padding: 20px;
-    margin-left: 50px;
+    padding: 1vw;
+    margin-left: 3.5vw;
 }
 
 header{
@@ -32,39 +46,39 @@ header{
 }
 
 h1 {
-    margin-top: 20px;
-    font-size: 48px;
+    margin-top: 1vw;
+    font-size: 1.5vw;
     color: #F9FAF8;
     font-weight: bolder;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-left: 100px;
+    margin-left: 5vw;
     margin-bottom: 0;
 }
 
 
 .subtext {
     color: #dedede;
-    font-size: 15px;
-    margin-left: 100px;
+    font-size: 0.75vw;
+    margin-left: 4vw;
     margin-top: 0;
-    padding-top: 0
+    padding-top: 0;
 }
 
 button {
-    margin-left: 100px;
+    margin-left: 4vw;
     background-color: #3882F6;
     color: white;
-    border-radius: 10px;
+    border-radius: 1vw;
 }
 
 
 .grey-rectangle {
     position: relative;
-    left: 1000px;
-    bottom: 150px;
-    width: 500px; /* Adjust the width as needed */
-    height: 50%; /* Expand to full height of top-section */
-    background-color: rgb(147, 144, 144); /* Use your desired shade of grey */
+    left: 40vw;
+    bottom: 6vw;
+    width: 20vw; 
+    height: 50%; 
+    background-color: rgb(147, 144, 144); 
     color: #F9FAF8;
     display: flex;
     justify-content: center;
@@ -75,9 +89,9 @@ button {
 
 .header-logo {
     display: flex;
-    font-size: 24px;
+    font-size: 2vw;
     font-weight: bolder;
-    margin-left: 100px;
+    margin-left: 3vw;
     color: #F9FAF8;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -85,18 +99,21 @@ button {
 
 
 .second-section {
-    height: 30%; /* Adjust the height as needed */
-    display: flex;
+    height: 30%; 
+    display: grid;
     flex-direction: column;
     align-items: center;
+    
 
   }
+
+
 
 h2 {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    font-size: 36px;
+    margin-top: 2vh;
+    font-size: 2vw;
     font-weight: bolder;
     color: #1F2937;
 }
@@ -104,26 +121,28 @@ h2 {
 .square-container {
     display: flex;
     justify-content: center;
+    
   }
 
 .square {
     position: relative;
-    width: 100px; /* Adjust the size of the squares as needed */
-    height: 100px;
-    border: 2px solid blue; /* Blue border */
-    margin: 10px; /* Adjust the spacing between squares as needed */
+    width: 4vw; 
+    height: 10vh;
+    border: 0.1vw solid blue; 
+    margin: 0.5vw; 
   }
 
 .text-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 0.6vw;
   }
   
 .text-container p {
-    margin: 5px;
-    width: 100px;
+    width: 5vw;
     text-align: center;
+    margin-top: 0.5vh;
   }
 
 .third-section {
@@ -135,20 +154,20 @@ h2 {
 }
 
 .quote {
-    font-size: 36px;
+    font-size: 1.5vw;
     color: #1F2937;
     font-style: italic;
     font-weight: lighter;
-    width: 800px;
+    width: 50vw;
     
 }
 
 .author {
-    margin-top: 150px;
+    margin-top: 5vh;
     font-weight: bold;
-    font-size: 20px;
-    margin-left: -250px;
-    margin-top: 200px;
+    font-size: 1vw;
+    margin-left: -5vw;
+    margin-top: 15vh;
 }
 
 .fourth-section {
@@ -159,8 +178,8 @@ h2 {
 }
 
 .blue-rectangle {
-    width: 1000px; /* Adjust the width as needed */
-    height: 50%; /* Expand to full height of top-section */
+    width: 30vw; 
+    height: 50%; 
     background-color: #3882F6;
     color: white;
     display: flex;
@@ -174,7 +193,8 @@ h2 {
   }
 
 .button2 {
-    border: 2px solid white;
+    border: 0.1vw solid white;
+
 }
 
 .footer {
